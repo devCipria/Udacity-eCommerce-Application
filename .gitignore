@@ -1,2 +1,12 @@
 .idea/
 *.iml
+*.class
+*.jar
+target/
+dist/
+.idea/
+TEST*.xml
+Thumbs.db
+*.app
+*.exe
+*.war
