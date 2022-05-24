@@ -4,7 +4,6 @@
 *.jar
 target/
 dist/
-.idea/
 TEST*.xml
 Thumbs.db
 *.app
