@@ -10,6 +10,8 @@ import org.junit.Test;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import java.util.Optional;
+
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -50,4 +52,51 @@ public class UserControllerTest {
         assertEquals("HashedPassword", user.getPassword());
         assertEquals("user", user.getUsername());
     }
+
+    @Test
+    public void verify_find_user_by_id() {
+        Long id = 5L;
+        User user = new User(id, "David", "abc1234");
+
+        when(userRepository.findById(id)).thenReturn(Optional.of(user));
+        final ResponseEntity<User> response = userController.findById(id);
+
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+
+        User responseUser = response.getBody();
+        assertNotNull(responseUser);
+        assertEquals(user.getUsername(), responseUser.getUsername());
+        assertEquals(user.getPassword(), responseUser.getPassword());
+        assertEquals(user.getId(), responseUser.getId());
+    }
+
+    @Test
+    public void verify_find_user_by_username() {
+        String username = "David";
+        User user = new User(10, username, "abc1234");
+
+        when(userRepository.findByUsername(username)).thenReturn(user);
+        ResponseEntity<User> response = userController.findByUserName(username);
+
+        assertNotNull(response);
+        assertEquals(200, response.getStatusCodeValue());
+
+        User responseUser = response.getBody();
+        assertNotNull(responseUser);
+        assertEquals(user.getUsername(), responseUser.getUsername());
+        assertEquals(user.getPassword(), responseUser.getPassword());
+        assertEquals(user.getId(), responseUser.getId());
+    }
+
+    @Test
+    public void find_by_username_Failure() {
+        User user = new User(10, "David", "abc1234");
+
+        when(userRepository.findByUsername("David")).thenReturn(user);
+        ResponseEntity<User> response = userController.findByUserName("no_such_username");
+
+        assertEquals(404, response.getStatusCodeValue());
+    }
+
 }
