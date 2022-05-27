@@ -32,6 +32,7 @@ public class UserControllerTest {
 
     }
 
+    // Test sourced from lecture
     @Test
     public void create_user_happy_path() {
         when(encoder.encode("password")).thenReturn("HashedPassword");

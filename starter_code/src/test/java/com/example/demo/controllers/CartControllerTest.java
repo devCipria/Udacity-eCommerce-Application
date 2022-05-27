@@ -10,6 +10,7 @@ import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.ModifyCartRequest;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
@@ -35,7 +36,7 @@ public class CartControllerTest {
     }
 
     @Test
-    public void verify_add_to_cart() { // create happy path add to cart
+    public void verify_add_to_cart() {
         User user = new User(1L, "David", "abc1234");
 
         Item roundWidget = new Item(1L, "Round Widget", new BigDecimal(2.99), "A widget that is round");
@@ -95,6 +96,18 @@ public class CartControllerTest {
         assertEquals(1, responseCart.getItems().size());
         assertEquals(squareWidget, responseCart.getItems().get(0));
         assertFalse(responseCart.getItems().contains(roundWidget));
+    }
+
+    @Test
+    public void add_to_cart_failure() {
+
+        // user Tom does not exist
+        ModifyCartRequest cartRequest = new ModifyCartRequest("Tom", 1L, 1);
+        when(userRepository.findByUsername("Tom")).thenReturn(null);
+        when(itemRepository.findById(8L)).thenReturn(Optional.of(new Item()));
+        ResponseEntity<Cart> response = cartController.addTocart(cartRequest);
+
+        assertEquals(response.getStatusCodeValue(), HttpStatus.NOT_FOUND.value());
     }
 
 }
