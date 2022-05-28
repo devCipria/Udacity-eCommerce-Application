@@ -101,3 +101,19 @@
 2022-05-27 20:04:34,535 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Added cart for Helena
 2022-05-27 20:04:39,136 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Added cart for Helena
 2022-05-27 20:04:45,033 INFO c.e.d.c.OrderController [http-nio-8080-exec-5] Order submitted for: Helena
+2022-05-28 09:20:38,729 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Leno with PID 7316 (C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code\target\classes started by trade in C:\dev\workspace\Udacity-eCommerce-Application)
+2022-05-28 09:20:38,735 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-28 09:20:38,736 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-05-28 09:20:39,821 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-05-28 09:20:41,809 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-05-28 09:20:42,001 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-28 09:20:42,414 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-28 09:20:42,415 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 4.009 seconds (JVM running for 7.548)
+2022-05-28 09:20:54,647 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Account Created with username: Helena
+2022-05-28 09:21:11,563 ERROR c.e.d.c.UserController [http-nio-8080-exec-3] Account Not Created due to Password: 33 not meeting requirements
+2022-05-28 09:21:21,097 ERROR c.e.d.c.UserController [http-nio-8080-exec-5] Account Not Created due to Password: hi not meeting requirements
+2022-05-28 09:21:31,042 ERROR c.e.d.c.UserController [http-nio-8080-exec-6] Account Not Created due to Password: red12 not meeting requirements
+2022-05-28 09:21:40,198 ERROR c.e.d.c.UserController [http-nio-8080-exec-9] Account Not Created due to Password: yes not meeting requirements
+2022-05-28 09:21:57,788 ERROR c.e.d.c.UserController [http-nio-8080-exec-10] Account Not Created due to Password: pop not meeting requirements
+2022-05-28 09:22:12,606 ERROR c.e.d.c.UserController [http-nio-8080-exec-3] Account Not Created due to Password: nun not meeting requirements
+2022-05-28 09:23:38,733 ERROR c.e.d.c.UserController [http-nio-8080-exec-4] Account Not Created due to Password: war not meeting requirements
