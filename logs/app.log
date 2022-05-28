@@ -1,0 +1,103 @@
+2022-05-27 19:21:13,457 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Leno with PID 19404 (C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code\target\classes started by trade in C:\dev\workspace\Udacity-eCommerce-Application)
+2022-05-27 19:21:13,463 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-27 19:23:46,299 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Leno with PID 29580 (C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code\target\classes started by trade in C:\dev\workspace\Udacity-eCommerce-Application)
+2022-05-27 19:23:46,309 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-27 19:23:46,310 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-05-27 19:23:47,512 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-05-27 19:23:49,595 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-05-27 19:23:49,835 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-27 19:23:50,206 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-27 19:23:50,209 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 4.312 seconds (JVM running for 5.707)
+2022-05-27 19:25:07,509 ERROR c.e.d.c.UserController [http-nio-8080-exec-1] Account Not Created due to Password: abc1234 not meeting requirements
+2022-05-27 19:25:12,001 INFO c.e.d.c.UserController [http-nio-8080-exec-4] Account Created with username: David
+2022-05-27 19:25:16,158 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-5] Request is to process authentication
+2022-05-27 19:25:43,814 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-7] Request is to process authentication
+2022-05-27 19:26:14,330 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Added cart for David
+2022-05-27 19:26:23,808 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Added cart for David
+2022-05-27 19:26:33,107 ERROR c.e.d.c.CartController [http-nio-8080-exec-10] Item ID 3 not found when trying to addToCart
+2022-05-27 19:26:43,640 ERROR c.e.d.c.CartController [http-nio-8080-exec-2] User Mike not found when trying to addToCart
+2022-05-27 19:26:59,663 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] Order submitted for: David
+2022-05-27 19:27:07,505 ERROR c.e.d.c.OrderController [http-nio-8080-exec-3] User: Mary not found when trying to submit order
+2022-05-27 19:27:12,510 ERROR c.e.d.c.OrderController [http-nio-8080-exec-4] User: Jack not found when trying to get order history
+2022-05-27 19:27:17,963 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order history returned for: David
+2022-05-27 19:27:28,279 INFO c.e.d.c.CartController [http-nio-8080-exec-7] Item ID 1 removed 
+2022-05-27 19:27:33,546 ERROR c.e.d.c.CartController [http-nio-8080-exec-8] Item ID 4 not found when trying to removeFromCart
+2022-05-27 19:28:04,011 ERROR c.e.d.c.UserController [http-nio-8080-exec-9] Account Not Created due to Password: qwerty not meeting requirements
+2022-05-27 19:28:15,147 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Account Created with username: Sally
+2022-05-27 19:28:25,098 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-5] Request is to process authentication
+2022-05-27 19:28:39,136 INFO c.e.d.c.CartController [http-nio-8080-exec-1] Added cart for Sally
+2022-05-27 19:28:43,756 INFO c.e.d.c.CartController [http-nio-8080-exec-3] Added cart for Sally
+2022-05-27 19:28:47,649 ERROR c.e.d.c.CartController [http-nio-8080-exec-4] Item ID 5 not found when trying to addToCart
+2022-05-27 19:28:54,836 ERROR c.e.d.c.CartController [http-nio-8080-exec-6] User Mickey not found when trying to addToCart
+2022-05-27 19:29:02,896 INFO c.e.d.c.OrderController [http-nio-8080-exec-7] Order submitted for: Sally
+2022-05-27 19:29:09,079 ERROR c.e.d.c.OrderController [http-nio-8080-exec-8] User: Jules not found when trying to submit order
+2022-05-27 19:29:17,517 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] Order history returned for: Sally
+2022-05-27 19:29:35,151 ERROR c.e.d.c.OrderController [http-nio-8080-exec-10] User: Jack not found when trying to get order history
+2022-05-27 19:29:54,349 ERROR c.e.d.c.UserController [http-nio-8080-exec-2] Account Not Created due to Password: dsd1233 not meeting requirements
+2022-05-27 19:29:58,791 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Account Created with username: Abdul
+2022-05-27 19:30:14,542 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-05-27 19:30:26,831 ERROR c.e.d.c.CartController [http-nio-8080-exec-4] Item ID 5 not found when trying to addToCart
+2022-05-27 19:30:31,235 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Added cart for Abdul
+2022-05-27 19:30:34,993 INFO c.e.d.c.CartController [http-nio-8080-exec-7] Added cart for Abdul
+2022-05-27 19:30:38,877 ERROR c.e.d.c.CartController [http-nio-8080-exec-8] Item ID 5 not found when trying to addToCart
+2022-05-27 19:31:08,152 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] Order submitted for: Abdul
+2022-05-27 19:31:19,281 ERROR c.e.d.c.OrderController [http-nio-8080-exec-10] User: abdul not found when trying to get order history
+2022-05-27 19:31:28,101 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] Order history returned for: Abdul
+2022-05-27 19:31:54,557 ERROR c.e.d.c.UserController [http-nio-8080-exec-5] Account Not Created due to Password: djafslads not meeting requirements
+2022-05-27 19:32:08,841 ERROR c.e.d.c.UserController [http-nio-8080-exec-3] Account Not Created due to Password: red not meeting requirements
+2022-05-27 19:32:22,095 ERROR c.e.d.c.UserController [http-nio-8080-exec-6] Account Not Created due to Password: blue not meeting requirements
+2022-05-27 19:32:33,983 INFO c.e.d.c.UserController [http-nio-8080-exec-8] Account Created with username: Tiff
+2022-05-27 19:32:46,952 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-9] Request is to process authentication
+2022-05-27 19:33:01,789 INFO c.e.d.c.CartController [http-nio-8080-exec-10] Added cart for Tiff
+2022-05-27 19:33:11,656 INFO c.e.d.c.CartController [http-nio-8080-exec-2] Added cart for Tiff
+2022-05-27 19:33:16,688 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Added cart for Tiff
+2022-05-27 19:33:20,834 ERROR c.e.d.c.CartController [http-nio-8080-exec-1] Item ID 22 not found when trying to addToCart
+2022-05-27 19:33:29,607 INFO c.e.d.c.OrderController [http-nio-8080-exec-3] Order submitted for: Tiff
+2022-05-27 19:33:35,921 ERROR c.e.d.c.OrderController [http-nio-8080-exec-4] User: Steven not found when trying to submit order
+2022-05-27 19:33:41,863 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order history returned for: Tiff
+2022-05-27 19:33:47,914 ERROR c.e.d.c.OrderController [http-nio-8080-exec-7] User: Jeff not found when trying to get order history
+2022-05-27 19:34:08,437 ERROR c.e.d.c.CartController [http-nio-8080-exec-8] Item ID 4 not found when trying to removeFromCart
+2022-05-27 19:34:12,670 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Item ID 1 removed 
+2022-05-27 19:34:30,210 INFO c.e.d.c.UserController [http-nio-8080-exec-10] Account Created with username: Simon
+2022-05-27 19:34:34,480 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Account Created with username: Ted
+2022-05-27 19:34:40,350 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Account Created with username: Sunita
+2022-05-27 19:34:55,080 ERROR c.e.d.c.UserController [http-nio-8080-exec-1] Account Not Created due to Password: tt123 not meeting requirements
+2022-05-27 19:35:28,032 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Added cart for Simon
+2022-05-27 19:35:33,237 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Added cart for Simon
+2022-05-27 19:35:43,813 INFO c.e.d.c.OrderController [http-nio-8080-exec-7] Order submitted for: Simon
+2022-05-27 19:35:53,398 INFO c.e.d.c.OrderController [http-nio-8080-exec-8] Order history returned for: Simon
+2022-05-27 19:35:59,300 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Item ID 1 removed 
+2022-05-27 19:36:40,153 ERROR c.e.d.c.UserController [http-nio-8080-exec-10] Account Not Created due to Password: april1 not meeting requirements
+2022-05-27 19:36:50,402 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Account Created with username: Greg
+2022-05-27 19:37:18,023 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-1] Request is to process authentication
+2022-05-27 19:37:26,953 INFO c.e.d.c.CartController [http-nio-8080-exec-3] Added cart for Greg
+2022-05-27 19:37:31,092 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Added cart for Greg
+2022-05-27 19:37:36,726 ERROR c.e.d.c.CartController [http-nio-8080-exec-6] User Mo not found when trying to addToCart
+2022-05-27 19:37:43,839 INFO c.e.d.c.OrderController [http-nio-8080-exec-7] Order submitted for: Greg
+2022-05-27 19:37:49,423 ERROR c.e.d.c.OrderController [http-nio-8080-exec-8] User: Mo not found when trying to submit order
+2022-05-27 19:37:55,534 ERROR c.e.d.c.OrderController [http-nio-8080-exec-9] User: Sadia not found when trying to submit order
+2022-05-27 19:38:06,942 ERROR c.e.d.c.OrderController [http-nio-8080-exec-10] User: Tim not found when trying to get order history
+2022-05-27 19:56:46,051 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Leno with PID 9960 (C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code\target\classes started by trade in C:\dev\workspace\Udacity-eCommerce-Application)
+2022-05-27 19:56:46,056 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-27 19:56:46,056 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-05-27 19:56:47,081 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-05-27 19:56:48,731 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-05-27 19:56:48,939 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-27 19:56:49,405 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-27 19:56:49,407 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.689 seconds (JVM running for 5.008)
+2022-05-27 19:57:02,289 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Account Created with username: Greg
+2022-05-27 19:57:31,293 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-05-27 19:57:53,703 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Added cart for Greg
+2022-05-27 20:03:53,387 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Leno with PID 11396 (C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code\target\classes started by trade in C:\dev\workspace\Udacity-eCommerce-Application)
+2022-05-27 20:03:53,392 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-27 20:03:53,393 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-05-27 20:03:54,392 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-05-27 20:03:55,926 DEBUG c.e.d.s.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2022-05-27 20:03:56,102 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-27 20:03:56,492 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-27 20:03:56,494 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.438 seconds (JVM running for 4.894)
+2022-05-27 20:04:17,319 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Account Created with username: Helena
+2022-05-27 20:04:24,253 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-05-27 20:04:34,535 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Added cart for Helena
+2022-05-27 20:04:39,136 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Added cart for Helena
+2022-05-27 20:04:45,033 INFO c.e.d.c.OrderController [http-nio-8080-exec-5] Order submitted for: Helena
