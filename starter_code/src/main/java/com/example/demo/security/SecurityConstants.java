@@ -1,5 +1,6 @@
 package com.example.demo.security;
 
+// Sourced from the Lesson 12. Demo: Authentication and Authorization using JWT
 public class SecurityConstants {
 
     public static final String SECRET = "oursecretkey";

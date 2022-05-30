@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.UserRepository;
 
+// Sourced from the Lesson 12. Demo: Authentication and Authorization using JWT
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 

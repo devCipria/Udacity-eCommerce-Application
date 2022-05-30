@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 
+// Sourced from the Lesson 12. Demo: Authentication and Authorization using JWT
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private AuthenticationManager authenticationManager;

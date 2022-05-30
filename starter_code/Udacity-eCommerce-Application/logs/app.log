@@ -1,0 +1,31 @@
+2022-05-29 21:48:07,449 INFO c.e.d.c.UserController [main] Account Created with username: user
+2022-05-29 21:48:35,218 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.SareetaApplicationTests], using SpringBootContextLoader
+2022-05-29 21:48:35,373 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.demo.SareetaApplication for test class com.example.demo.SareetaApplicationTests
+2022-05-29 21:48:35,479 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2022-05-29 21:48:35,501 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41e68d87, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49ff7d8c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@29526c05, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ef14fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@77102b91, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45312be2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fb95505, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@58be6e8, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7331196b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3f9342d4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ab7395e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50d13246, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bd08376, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e70f13a]
+2022-05-29 21:48:35,803 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Leno with PID 14780 (started by trade in C:\dev\workspace\Udacity-eCommerce-Application\Udacity-eCommerce-Application\starter_code)
+2022-05-29 21:48:35,803 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-05-29 21:48:35,804 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-05-29 21:48:40,511 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-29 21:48:40,870 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 5.317 seconds (JVM running for 6.989)
+2022-05-29 21:48:57,968 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:48:57,992 INFO c.e.d.c.OrderController [main] Order history returned for: David
+2022-05-29 21:48:57,994 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:49:21,220 INFO c.e.d.c.UserController [main] Account Created with username: user
+2022-05-29 21:50:44,581 ERROR c.e.d.c.CartController [main] User Tom not found when trying to addToCart
+2022-05-29 21:50:44,614 INFO c.e.d.c.CartController [main] Item ID 1 removed 
+2022-05-29 21:50:44,616 INFO c.e.d.c.CartController [main] Added cart for David
+2022-05-29 21:53:08,318 ERROR c.e.d.c.CartController [main] User Tom not found when trying to addToCart
+2022-05-29 21:53:08,372 INFO c.e.d.c.CartController [main] Item ID 1 removed 
+2022-05-29 21:53:08,373 INFO c.e.d.c.CartController [main] Added cart for David
+2022-05-29 21:53:08,415 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:53:08,415 INFO c.e.d.c.OrderController [main] Order history returned for: David
+2022-05-29 21:53:08,416 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:53:08,441 INFO c.e.d.c.UserController [main] Account Created with username: user
+2022-05-29 21:54:43,323 ERROR c.e.d.c.CartController [main] User Tom not found when trying to addToCart
+2022-05-29 21:54:43,364 INFO c.e.d.c.CartController [main] Item ID 1 removed 
+2022-05-29 21:54:43,365 INFO c.e.d.c.CartController [main] Added cart for David
+2022-05-29 21:54:43,397 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:54:43,397 INFO c.e.d.c.OrderController [main] Order history returned for: David
+2022-05-29 21:54:43,398 INFO c.e.d.c.OrderController [main] Order submitted for: David
+2022-05-29 21:54:43,419 INFO c.e.d.c.UserController [main] Account Created with username: user
